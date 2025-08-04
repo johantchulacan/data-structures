@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Clase1 {
     public static void main(String[] args) {
         System.out.println("estructura de datos");
@@ -12,11 +14,11 @@ public class Clase1 {
         //int [] numeros =new int [5]
 
         //Declaración e inicialización
-        int[] numeros = {10, 20, 30, 40, 50};
+        //int[] numeros = {10, 20, 30, 40, 50};
 
         OperacionesArreglos objArreglo = new OperacionesArreglos();
 
-        int[]numeros =objArreglo.llenarArregloEnteros(tam:5);
+        int[] numeros = objArreglo.llenarArregloEnteros(5);
         System.out.println(Arrays.toString(numeros));
 
 

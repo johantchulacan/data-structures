@@ -3,7 +3,7 @@ import java.util.Random;
 public class OperacionesArreglos {
 
     //metodo para llenar un arreglo de enteros
-    public int[] llenarArreglo(int tam){
+    public int[] llenarArregloEnteros(int tam){
 
         Random rand =new Random();
 
