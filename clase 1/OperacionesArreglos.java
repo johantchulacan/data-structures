@@ -19,7 +19,14 @@ public class OperacionesArreglos {
 
     //sumar los elementos de un arreglo de enteros
 
-    public
+    public int sumarElementos(int[] arreglo){
+        int suma = 0;
+        for (int num: arreglo ) {
+            suma+= num;
+
+        }
+        return suma;
+    }
 
     //obtener el promedio de un arreglo de enteros
 
