@@ -21,6 +21,9 @@ public class Clase1 {
         int[] numeros = objArreglo.llenarArregloEnteros(5);
         System.out.println(Arrays.toString(numeros));
 
+        int suma =objArreglo.sumarElementos(numeros);
+        System.out.println("suma de elementos: " + suma );
+
 
 
 

@@ -19,6 +19,8 @@ public class OperacionesArreglos {
 
     //sumar los elementos de un arreglo de enteros
 
+    public
+
     //obtener el promedio de un arreglo de enteros
 
     //obtener los numeros repetidos de un arreglo de enteros
