@@ -54,4 +54,22 @@ public class OperacionesArreglos {
 
     //obtener el mayor y el menor de un arreglo de enteros
 
+
+    public int[] obtenerMayorYMenor (int[] arreglo) {
+        if (arreglo.length == 0){
+            return new int[] {0, 0};
+
+        }
+
+        int mayor = arreglo[0];
+        int menor = arreglo[0];
+
+        for (int num : arreglo){
+            if (num > mayor ) mayor = num;
+            if (num < menor ) menor = num;
+
+        }
+
+        return new int []{mayor, menor};
+    }
 }

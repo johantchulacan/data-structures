@@ -25,10 +25,13 @@ public class Clase1 {
         int suma =objArreglo.sumarElementos(numeros);
         double promedio = objArreglo.promedioElemnetos(numeros);
         Set<Integer>repetidos =objArreglo.obtenerRepetidos(numeros);
+        int[] mayorYMenor = objArreglo.obtenerMayorYMenor(numeros);
 
         System.out.println("suma de elementos: " + suma );
         System.out.println("promedio: " + promedio);
         System.out.println("numeros repetidos: " + repetidos);
+        System.out.println("Mayor: " + mayorYMenor[0]);
+        System.out.println("Menor: " + mayorYMenor[1]);
 
 
     }
