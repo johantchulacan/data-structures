@@ -1,4 +1,6 @@
-import java.util.Random;
+import java.util.*;
+
+
 
 public class OperacionesArreglos {
 
@@ -30,7 +32,25 @@ public class OperacionesArreglos {
 
     //obtener el promedio de un arreglo de enteros
 
+    public double promedioElemnetos(int[] arreglo) {
+        if(arreglo.length == 0) {
+            return 0;
+        }
+        return (double) sumarElementos(arreglo) / arreglo.length;
+    }
     //obtener los numeros repetidos de un arreglo de enteros
+
+    public Set<Integer> obtenerRepetidos (int[] arreglo){
+        Set<Integer> vistos = new HashSet <>();
+        Set<Integer> repetidos =new HashSet <>();
+
+        for (int num : arreglo) {
+            if (!vistos.add (num)){
+                repetidos.add(num);
+            }
+        }
+        return repetidos;
+    }
 
     //obtener el mayor y el menor de un arreglo de enteros
 
