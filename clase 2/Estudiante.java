@@ -33,4 +33,10 @@ public class Estudiante {
     public String toString(){
         return "Estudiante { id: " + id + " Nombre: " + nombre + " Apellido: " + apellido + " Facultad: " + facultad + " }";
     }
+
+    //implementar el método +matricularCursos(id:int, cursos[]:String):void
+
+    //implementar un método que permita saber cuántos estudiantes hay en cada facultad
+
+    //implementar un método que permita saber cuantos estudiantes hay en cada curso.
 }
