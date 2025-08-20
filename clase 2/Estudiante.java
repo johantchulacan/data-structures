@@ -5,15 +5,15 @@ public class Estudiante {
     private int id;
     private String nombre;
     private String apellido;
-    private String falcultad;
+    private String facultad;
 
     //constructor de la clase
-    public Estudiante(int id, String nombre, String apellido, String faclutad){
+    public Estudiante(int id, String nombre, String apellido, String facultad){
 
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
-        this.falcultad = faclutad;
+        this.facultad = facultad;
 
     }
 
@@ -30,7 +30,7 @@ public class Estudiante {
         System.out.println("id:" + id + "Cursos matriculados: " + cad);
     }
 
-    public String  toString(){
-        return "Estudiante {id: + id  + " Nombre: " + nombre + "Apellido:  " + apellido }
+    public String toString(){
+        return "Estudiante { id: " + id + " Nombre: " + nombre + " Apellido: " + apellido + " Facultad: " + facultad + " }";
     }
 }

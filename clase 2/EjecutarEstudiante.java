@@ -29,8 +29,17 @@ public class EjecutarEstudiante {
         est[4] = new Estudiante(304050, "antonio " , "buitrago", "derecho");
 
         System.out.println(Arrays.toString(est));
+
+        System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXx");
+
         for(Estudiante e: est){
-            System.out.println(estudiante);
+            System.out.println(e);
+        }
+
+        System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXx");
+
+        for(int i = 0; i < est.length; i++){
+            System.out.println(est[i]);
         }
 
     }
